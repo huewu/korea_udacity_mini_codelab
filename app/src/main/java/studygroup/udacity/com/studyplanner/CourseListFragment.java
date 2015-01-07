@@ -6,7 +6,7 @@ import android.support.v4.app.ListFragment;
 import android.view.View;
 import android.widget.ListView;
 
-import studygroup.udacity.com.studyplanner.data.CourseItem;
+import studygroup.udacity.com.studyplanner.data.CourseDummy;
 
 /**
  * A list fragment representing a list of Courses. This fragment
@@ -71,11 +71,10 @@ public class CourseListFragment extends ListFragment {
 
         // TODO: replace with a real list adapter.
         CourseListAdapter adapter = new CourseListAdapter(getActivity());
-        adapter.addAll(CourseItem.ITEMS);
+        adapter.addAll(CourseDummy.ITEMS);
         setListAdapter(adapter);
     }
 
-    @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
@@ -112,7 +111,7 @@ public class CourseListFragment extends ListFragment {
 
         // Notify the active callbacks interface (the activity, if the
         // fragment is attached to one) that an item has been selected.
-        mCallbacks.onItemSelected(CourseItem.ITEMS.get(position).id);
+        mCallbacks.onItemSelected(CourseDummy.ITEMS.get(position).id);
     }
 
     @Override

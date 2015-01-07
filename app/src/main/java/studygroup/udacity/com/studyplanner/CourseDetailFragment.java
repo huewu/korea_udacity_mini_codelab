@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 
-import studygroup.udacity.com.studyplanner.data.CourseItem;
+import studygroup.udacity.com.studyplanner.data.CourseDummy;
 
 /**
  * A fragment representing a single Course detail screen.
@@ -26,7 +26,7 @@ public class CourseDetailFragment extends Fragment {
     /**
      * The dummy content this fragment is presenting.
      */
-    private CourseItem mItem;
+    private CourseDummy mItem;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the

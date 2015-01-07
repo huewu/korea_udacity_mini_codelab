@@ -5,11 +5,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 
-import com.bumptech.glide.Glide;
+import studygroup.udacity.com.studyplanner.data.CourseDummy;
 
-import studygroup.udacity.com.studyplanner.data.CourseItem;
-
-public class CourseListAdapter extends ArrayAdapter<CourseItem> {
+public class CourseListAdapter extends ArrayAdapter<CourseDummy> {
 
     public CourseListAdapter(Context context) {
         super(context, R.layout.course_list_item, R.id.course_title);

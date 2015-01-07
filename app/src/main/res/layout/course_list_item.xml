@@ -7,8 +7,10 @@
     <ImageView
         android:id="@+id/course_image"
         android:layout_width="?android:listPreferredItemHeightLarge"
-        android:layout_height="match_parent"
-        android:maxWidth="?android:listPreferredItemHeightLarge"
+        android:layout_height="?android:listPreferredItemHeightLarge"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
         android:src="@drawable/ic_launcher"
         android:scaleType="fitCenter"
         android:layout_centerVertical="true"

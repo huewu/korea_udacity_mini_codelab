@@ -3,5 +3,6 @@
 
     <string name="app_name">StudyPlanner</string>
     <string name="title_course_detail">Course Detail</string>
+    <string name="refresh">Refresh</string>
 
 </resources>
